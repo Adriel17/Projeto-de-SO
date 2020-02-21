@@ -1,0 +1,54 @@
+/*                 adasdasdasd                               */
+/*-fx-background-color: linear-gradient(to top, #dc143c, #32cd32);*/
+/*barra de menus*/
+#barra{
+    -fx-background-color: #444444;
+}
+.menuItem{
+    -fx-text-fill: white;
+}
+
+/*TABELA*/
+.tabela1{
+    background-color: red;
+}
+#tabela:focused{
+        
+}
+.table-row-cell{
+    -fx-background-color: #3f3f3f;  
+}
+.table-row-cell:focused{
+    -fx-background-color: #db1d1d;
+    
+}
+#hbox{
+    -fx-background-color: #444444;
+}
+/*BOTOES*/
+#file{
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+    -fx-border-color: #db1d1d;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+}
+#file:hover{
+    -fx-border-color: white;
+}
+#tecla{ 
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+    -fx-border-color: #db1d1d;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+}
+#tecla:hover{
+    -fx-border-color: white;
+}
+
+#tpane{
+    -fx-font-size: 40;
+}
